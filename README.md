@@ -1,6 +1,6 @@
 ## Commands
 ```
-docker run -v .:/home/jovyan/work -p 8888:8888 jupyter/datascience-notebook
+docker run -v `pwd`:/home/jovyan/work -p 8888:8888 jupyter/datascience-notebook
 ```
 ## Requirement
 ```
